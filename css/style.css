@@ -1,8 +1,11 @@
 body{
-  margin: 0;
+  margin: 0;}
+
+.main-1{
   background-image: url(../img/kyoto.jpg);
   background-size: cover;
-
+  width: 100%;
+  height: 700px;
 }
 
 header{
@@ -33,37 +36,60 @@ header p{
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;  font-size: 15px;
 }
 
-.nav{
-  position: relative;
-  top: 100px;
-  right: 40px;
-  float: right;
-}
-
-ul{
+header ul{
   list-style: none;
   margin: 0;
   display: flex;
-  text-align: center;
-  height: 63px;
+  position: relative;
+  left: 670px;
+
 }
 
-li{
+header li{
   margin: 0 0 0 15px;
   font-size: 14px;
 }
 
-a{
+header a{
   font-size: 16px;
-  color: #fff;
+  color: #663333;
   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;  font-size: 15px;
   text-decoration: none;
+  float: right;
+}
+
+.nav-2{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: black;
 }
 
 main h1{
   position: relative;
   top: 200px;
   left: 150px;
-  color: black;
+  color: #fff;
   font-family: 'klee',sans-serif;
+}
+
+main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+main li {
+  display: inline-flex;
+}
+
+main li a {
+  color: #fff;
+  display: flex;
+  padding: 8px;
+  background-color: black;
+  text-decoration:  none;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
 }
